@@ -1,0 +1,9 @@
+
+message Data {
+  message Item {
+    optional string name = 1;
+    repeated int32 num = 2;
+  }
+
+  repeated Item item = 1;
+}
